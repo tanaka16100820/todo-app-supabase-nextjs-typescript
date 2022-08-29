@@ -18,7 +18,7 @@ export const Layout: FC<Title> = ({children, title = 'Todo app'}) => {
         {children}
       </main>
       <footer className="flex h-12 w-full items-center justify-center border-t">
-        <BadgeCheckIcon className="h-6 w-6 text-blue-500"/>
+        <BadgeCheckIcon className="h-6 w-6 text-blue-500" />
       </footer>
     </div>
   )
